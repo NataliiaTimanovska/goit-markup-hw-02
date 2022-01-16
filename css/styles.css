@@ -1,0 +1,90 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --brend-fon: #2f303a;
+  --brend-blue: #2196f3;
+  --brend-white: #ffffff;
+}
+
+.logo-link {
+  color: #2196f3;
+  font-family: 'Releway';
+  font-weight: 700;
+  font-size: 26px;
+}
+.acsent {
+  color: #000000;
+}
+
+.info-item {
+  color: #ffffff;
+}
+
+/*Тело*/
+
+.button-list .filter-button {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--brend-white);
+  background-color: var(--brend-blue);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-button:active {
+  color: var(--brend-white);
+  background-color: var(--brend-blue);
+}
+
+/* Подвал*/
+
+.footer {
+  background-color: var(--brend-fon);
+}
+.link-logo {
+  color: var(--brend-white);
+}
+.link-logo:hover,
+.link-logo:focus {
+  color: var(--brend-blue);
+}
+.link-logo:active {
+  color: var(--brend-blue);
+}
+.address {
+  color: var(--brend-white);
+}
+.address:hover,
+.address:focus {
+  color: var(--brend-blue);
+}
+.address:active {
+  color: var(--brend-blue);
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-info {
+  list-style-type: none;
+}
