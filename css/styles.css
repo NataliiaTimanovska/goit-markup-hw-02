@@ -31,7 +31,7 @@ ul {
 
 .logo-header {
   color: var(--brend-blue);
-  font-family: 'Releway';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -40,7 +40,7 @@ ul {
 
 .logo-header-color {
   color: #000000;
-  font-family: 'Releway';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -58,6 +58,7 @@ ul {
 .header-link:hover,
 .header-link:focus {
   color: var(--brend-blue);
+  text-decoration: none;
 }
 .header-link-tel,
 .header-link-mail {
@@ -68,11 +69,13 @@ ul {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-link-tel:hover,
 .header-link-tel:focus {
   color: var(--brend-blue);
+  text-decoration: none;
 }
 .header-link-mail:hover,
 .header-link-mail:focus {
@@ -108,14 +111,15 @@ ul {
   letter-spacing: 0.06em;
 }
 /* ---------------------особенности --- */
-.advantage-title {
-  font-weight: bold;
+.advantage-item-title {
+  font-family: Roboto;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
+
 .advantage-item-text {
   font-size: 14px;
   line-height: 24px;
@@ -123,23 +127,23 @@ ul {
   color: #757575;
 }
 
-/* ---------------------чем мы занимаемся --- */
-.gallery {
+/* ----------------чем мы занимаемся галерея--- */
+.gallery-list {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 /* ---------------------Наша команда ------- */
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .team-item-title {
   font-weight: 500;
@@ -147,7 +151,7 @@ ul {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .team-item-text {
   font-size: 16px;
@@ -180,15 +184,13 @@ ul {
 /* ----------------------Портфолио----------------*/
 .products {
   font-family: Roboto;
-  font-style: normal;
   text-decoration: none;
 }
 .products-list-title {
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 
@@ -206,7 +208,7 @@ ul {
 }
 .logo-footer {
   color: var(--brend-blue);
-  font-family: 'Releway';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -214,7 +216,7 @@ ul {
 }
 .logo-footer-color {
   color: var(--brend-white);
-  font-family: 'Releway';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -225,10 +227,10 @@ ul {
   color: #ffffff;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .address-list-item:hover,
 .address-list-item:focus {
@@ -238,7 +240,6 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
